@@ -1,6 +1,10 @@
 # nut_tshara
 Configuração NUT do TS-Shara UPS PRO 2000
 
+<p align="center">
+  <img width="300" height="300" src="https://raw.githubusercontent.com/spec-r/nut_tshara/main/img/tsshara.png">
+</p>
+
 ## Configuração NUT no Debian 11
 
 - Objetivo: Monitoramento do Nobreak TS-Shara UPS PRO 2000
