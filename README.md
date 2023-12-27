@@ -12,7 +12,7 @@ Configuração NUT do TS-Shara UPS PRO 2000
 - Debian 11
 - NUT Server
 
-## Instalação
+## Instalação NUT
 
 Instalação **NUT**
 
@@ -88,3 +88,33 @@ Se estiver funcionando, deve aparecer algo assim:
 	ups.type: offline / line interactive
 	ups.vendorid: 0483
 	
+Alterar a no **/etc/nut/upsd.conf** a linha **LISTEN 127.0.0.1 3493**
+
+	LISTEN 0.0.0.0 3493 
+
+## Instalação NUT CGI Server
+
+	apt install apache2 nut-cgi
+
+Adicionar na última linha do **/etc/nut/hosts.conf**
+
+	MONITOR tsshara@localhost "TS-Shara UPS PRO 2000"
+
+Executar o comando:
+
+	a2enmod cgi
+ 	systemctl restart apache2
+
+Retirar os comentários no **/etc/nut/upsset.conf** da linha:
+
+	I_HAVE_SECURED_MY_CGI_DIRECTORY
+
+ Se tudo ocorreu com sucesso, acesse o link
+
+	http://ip_do_debian/cgi-bin/nut/upsstats.cgi
+
+Fontes de pesquisa:
+
+http://mylowtechstuff.blogspot.com/2018/02/utilizando-nut-para-controle-de-nobreak.html <br />
+https://technotim.live/posts/NUT-server-guide/
+ 
