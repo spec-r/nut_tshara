@@ -112,9 +112,14 @@ Retirar os comentários no **/etc/nut/upsset.conf** da linha:
  Se tudo ocorreu com sucesso, acesse o link
 
 <http://ip_do_debian/cgi-bin/nut/upsstats.cgi>
-
-<img src="https://raw.githubusercontent.com/spec-r/nut_tshara/main/img/upsstats.png">
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/spec-r/nut_tshara/main/img/upsstats.png">
+</p>
+<br />
+<p align="center">
+  <img src="https://raw.githubusercontent.com/spec-r/nut_tshara/main/img/upsstats2.png">
+</p>
+<br />
 Fontes de pesquisa:
 
 http://mylowtechstuff.blogspot.com/2018/02/utilizando-nut-para-controle-de-nobreak.html <br />
