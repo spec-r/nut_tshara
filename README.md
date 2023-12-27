@@ -111,7 +111,9 @@ Retirar os comentários no **/etc/nut/upsset.conf** da linha:
 
  Se tudo ocorreu com sucesso, acesse o link
 
-	http://ip_do_debian/cgi-bin/nut/upsstats.cgi
+<http://ip_do_debian/cgi-bin/nut/upsstats.cgi>
+
+<img src="https://raw.githubusercontent.com/spec-r/nut_tshara/main/img/upsstats.png">
 
 Fontes de pesquisa:
 
